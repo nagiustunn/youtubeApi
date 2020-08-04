@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace youtubeApi
 {
-    public partial class Form1 : Form
+    public partial class Youtube : Form
     {
-        public Form1()
+        public Youtube()
         {
             InitializeComponent();
         }
