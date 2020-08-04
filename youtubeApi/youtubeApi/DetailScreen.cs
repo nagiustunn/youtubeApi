@@ -10,17 +10,13 @@ using System.Windows.Forms;
 
 namespace youtubeApi
 {
-    public partial class Youtube : Form
+    public partial class DetailScreen : Form
     {
-        public Youtube()
+        public DetailScreen()
         {
             InitializeComponent();
         }
 
-        private void btnDetail_Click(object sender, EventArgs e)
-        {
-            DetailScreen detailScreen = new DetailScreen();
-            detailScreen.ShowDialog();
-        }
+        
     }
 }
