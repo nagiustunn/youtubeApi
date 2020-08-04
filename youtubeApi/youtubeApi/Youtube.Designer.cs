@@ -87,6 +87,7 @@
             this.btnDetail.TabIndex = 5;
             this.btnDetail.Text = "Detail";
             this.btnDetail.UseVisualStyleBackColor = true;
+            this.btnDetail.Click += new System.EventHandler(this.btnDetail_Click);
             // 
             // Youtube
             // 
